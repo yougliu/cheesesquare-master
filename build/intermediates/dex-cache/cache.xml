@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/classes-dc82efc5e2cf5be67a8dce2481626608fce23309.jar" />
+    </item>
+    <item
+        jar="/home/helios/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/glide-3.6.0-ec202322d224dcc82c680637f21d31261c5b0305.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/classes-d2b8a89bfbb3a4b6db9b81a068c94e4813458087.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-80f8c28630353f6270a843ad764ba55dd5b7267c.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/classes-644b69d53bd8908ce49468762a3eb09950b907bd.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/classes-a7d860ec9ffd9663ddb49513bc0ad4359523afef.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/tools/eclipse_new/eclipse/adt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-d69d0c4c0a43550ae759fc3e022a895b9d059bda.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/classes-c9c820102070c668d12b8c8c062c2ea9437d8c14.jar" />
+    </item>
+    <item
+        jar="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/helios/work/worksource/transfer/transfer/androidWork/cheesesquare-master/app/build/intermediates/pre-dexed/debug/classes-bfab3de6f1419784209d7366c8174ad06e701ce8.jar" />
+    </item>
+
+</items>
