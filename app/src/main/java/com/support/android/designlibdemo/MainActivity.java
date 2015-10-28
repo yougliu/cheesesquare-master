@@ -30,12 +30,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Toast;
+import android.widget.ListView;
+
+import com.support.android.designlibdemo.adapter.LeftMenuListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,6 +48,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
+    private ListView navLeftMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,10 +64,13 @@ public class MainActivity extends AppCompatActivity {
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        if (navigationView != null) {
-            setupDrawerContent(navigationView);
-        }
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+//        if (navigationView != null) {
+//            setupDrawerContent(navigationView);
+//        }
+        navLeftMenu = (ListView) findViewById(R.id.id_left_menu_list);
+
+        setupDrawer();
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         if (viewPager != null) {
@@ -84,16 +90,25 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
+    private void setupDrawer() {
+        LayoutInflater inflater = LayoutInflater.from(this);
+        navLeftMenu.addHeaderView(inflater.inflate(R.layout.nav_header,navLeftMenu,false));
+        LeftMenuListAdapter adapter = new LeftMenuListAdapter(this);
+        navLeftMenu.setAdapter(adapter);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.sample_actions, menu);
+        getMenuInflater().inflate(R.menu.drawer_view, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.d("bonus","onOptionsItemSelected");
         switch (item.getItemId()) {
             case android.R.id.home:
+                Log.d("bonus","android.R.id.home");
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
         }

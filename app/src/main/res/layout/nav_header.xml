@@ -21,13 +21,52 @@
     android:background="?attr/colorPrimaryDark"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:gravity="bottom">
 
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/id_userhead"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Username"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:layout_weight="1"
+        android:src="@drawable/user_info_defalut_headpictrue"
+        android:clickable="true"
+        android:scaleType="fitCenter"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="7dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/id_username"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text="bonus liu"
+            android:drawableRight="@drawable/user_info_notvip"/>
+
+        <TextView
+            android:id="@+id/id_user_order"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text="order:27333276"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/id_user_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/user_info_bg"
+        android:drawableRight="@drawable/title_left_point"
+        android:layout_marginBottom="5dp"
+        android:text="info:20%"/>
 
 </LinearLayout>
