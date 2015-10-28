@@ -24,24 +24,24 @@
 
     <include layout="@layout/include_list_viewpager"/>
 
-    <!--<android.support.design.widget.NavigationView-->
-        <!--android:id="@+id/nav_view"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_gravity="start"-->
-        <!--android:fitsSystemWindows="true"-->
-        <!--app:headerLayout="@layout/nav_header"-->
-        <!--app:menu="@menu/drawer_view"/>-->
-    <ListView
-        android:id="@+id/id_left_menu_list"
-        android:layout_width="match_parent"
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
         android:layout_height="match_parent"
+        android:layout_width="wrap_content"
         android:layout_gravity="start"
-        android:paddingTop="0dp"
-        android:background="#ffffff"
-        android:clipToPadding="false"
-        android:divider="@null"
-        android:listSelector="?attr/selectableItemBackground">
-    </ListView>
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_view"/>
+    <!--<ListView-->
+        <!--android:id="@+id/id_left_menu_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:paddingTop="0dp"-->
+        <!--android:background="#ffffff"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:divider="@null"-->
+        <!--android:listSelector="?attr/selectableItemBackground">-->
+    <!--</ListView>-->
 
 </android.support.v4.widget.DrawerLayout>
